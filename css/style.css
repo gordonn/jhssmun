@@ -281,14 +281,6 @@ a{
 	font-family: 'Roboto', sans-serif;
 	left: 50%;
 	top: 50%;
-
-	background-attachment: fixed;
-  height: 105vh;
-  background-size: cover;
-  align-items: center;
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .homepage-title{
