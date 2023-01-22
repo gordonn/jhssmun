@@ -286,6 +286,7 @@ a{
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
+	animation: transistionIn 2s;
 }
 
 .horizontal-line{
@@ -298,12 +299,14 @@ a{
 	background-color: white;
 	margin-top: 0.75em;
 	margin-bottom: 0.75em;
+	animation: transistionIn 2s;
 }
 
 .homepage-intro{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	animation: transistionIn 2s;
 }
 
 .button-primary{
@@ -642,6 +645,7 @@ footer i{
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;
+	animation: transistionIn 2s;
 }
 
   .button1{
@@ -736,5 +740,30 @@ footer i{
 		margin-right: auto;
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+}
+
+@media (min-width: 1500px) {
+	.homepage-title{
+		padding-top: 11em;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+header{
+	animation: transistionIn 2s;
+}
+
+@keyframes transistionIn{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
 	}
 }
