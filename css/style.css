@@ -610,6 +610,10 @@ header{
 	animation: transistionIn 2s;
 }
 
+.home-section{
+	animation: transistionIn 2s;
+}
+
 
 @keyframes transistionIn{
 	from{
