@@ -607,8 +607,7 @@ footer i{
 }
 
 header{
-	animation: transistionIn 2s;
-	transition-delay: 10s;
+	animation: transistionIn 10s;
 }
 
 
