@@ -280,6 +280,25 @@ a{
 	background-attachment: fixed;
 }
 
+@media (max-width: 1000px) {
+	.home-section{
+		width: 100%;
+		display: block;
+		min-height: 100vh;
+		background-image: url(img/berlin-wall.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		color: white;
+		min-height: 105vh;
+		height: 100%;
+		font-family: 'Roboto', sans-serif;
+		left: 50%;
+		top: 50%;
+		background-attachment: scroll;
+	}
+}
+
 .homepage-title{
 	padding-top: 14em;
 	text-align: center;
