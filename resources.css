@@ -610,11 +610,19 @@ flex-direction: column;
 		.skewed h1{font-size: 1.25em;}
 }
 
-
-footer p{
-	color: #39784c;
+header{
+	animation: transistionIn 2s;
 }
 
+@keyframes transistionIn{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+}
 
 footer{
 	width: 100%;
@@ -632,39 +640,31 @@ footer{
 	color: #39784c;
 }
 
-.green-eagle{
-	width: 65px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -45px;
-	margin-bottom: 6px;
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
 
-footer i{
-	font-size: 1.5rem;
-	margin-left: -87%;
-	margin-top: 18px;
-	color: #39784c;
+.social img{
+	width: 20px;
+	height: 20px;
 }
 
 @media (min-width: 750px) {
 
-	.green-eagle{
-		width: 85px;
-		height: auto;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: -59px;
-		margin-bottom: 16.5px;
+	.social{
+		margin-bottom: 15px;
+		margin-top: -15px;
 	}
 
-	footer i{
-		font-size: 2rem;
-		margin-left: -95%;
-		margin-top: 5px;
-		color: #39784c;
+	.social img{
+		width: 25px;
+		height: 25px;
 	}
+
 
 	footer{
 		width: 100%;
@@ -680,19 +680,5 @@ footer i{
 		padding-bottom: 2em;
 		text-align: center;
 		color: #39784c;
-	}
-}
-
-header{
-	animation: transistionIn 2s;
-}
-
-@keyframes transistionIn{
-	from{
-		opacity: 0;
-	}
-
-	to{
-		opacity: 1;
 	}
 }

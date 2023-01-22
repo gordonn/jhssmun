@@ -592,73 +592,6 @@ a{
 
 }
 
-footer{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	min-height: 30px;
-	font-size: 0.6rem;
-	line-height: 1.25rem;
-	border-top: 1px solid #cccccc;
-	font-family: 'Roboto', sans-serif;
-	padding: 1em;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	text-align: center;
-	color: #39784c;
-}
-
-.green-eagle{
-	width: 65px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -45px;
-	margin-bottom: 6px;
-}
-
-footer i{
-	font-size: 1.5rem;
-	margin-left: -87%;
-	margin-top: 18px;
-	color: #39784c;
-}
-
-@media (min-width: 750px) {
-
-	.green-eagle{
-		width: 85px;
-		height: auto;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: -59px;
-		margin-bottom: 16.5px;
-	}
-
-	footer i{
-		font-size: 2rem;
-		margin-left: -95%;
-		margin-top: 5px;
-		color: #39784c;
-	}
-
-	footer{
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		min-height: 45px;
-		font-size: 1rem;
-		line-height: 1.75rem;
-		border-top: 1px solid #cccccc;
-		font-family: 'Roboto', sans-serif;
-		padding: 2em;
-		padding-top: 3em;
-		padding-bottom: 2em;
-		text-align: center;
-		color: #39784c;
-	}
-}
-
 .button-container{
 	margin-top: 20px;
 	font-family: 'Roboto', sans-serif;
@@ -784,5 +717,64 @@ header{
 
 	to{
 		opacity: 1;
+	}
+}
+
+footer{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 30px;
+	font-size: 0.6rem;
+	line-height: 1.25rem;
+	border-top: 1px solid #cccccc;
+	font-family: 'Roboto', sans-serif;
+	padding: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	text-align: center;
+	color: #39784c;
+}
+
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.social img{
+	width: 20px;
+	height: 20px;
+}
+
+@media (min-width: 750px) {
+
+	.social{
+		margin-bottom: 15px;
+		margin-top: -15px;
+	}
+
+	.social img{
+		width: 25px;
+		height: 25px;
+	}
+
+
+	footer{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 45px;
+		font-size: 1rem;
+		line-height: 1.75rem;
+		border-top: 1px solid #cccccc;
+		font-family: 'Roboto', sans-serif;
+		padding: 2em;
+		padding-top: 3em;
+		padding-bottom: 2em;
+		text-align: center;
+		color: #39784c;
 	}
 }
