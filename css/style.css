@@ -32,6 +32,8 @@ a{
 	top:0;
 	z-index: 99;
 	padding: 15px;
+	animation: transistionIn 0.75s;
+	
 }
 .header-main{
 	display: flex;
