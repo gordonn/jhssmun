@@ -290,6 +290,7 @@ a{
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
+	animation: transistionIn 2s;
 }
 
 .horizontal-line{
@@ -302,6 +303,7 @@ a{
 	background-color: white;
 	margin-top: 0.6em;
 	margin-bottom: 0.75em;
+	animation: transistionIn 2s;
 }
 
 .homepage-intro{
@@ -309,6 +311,7 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 12em;
+	animation: transistionIn 2s;
 }
 
 .homepage-letter{
@@ -609,11 +612,6 @@ footer i{
 header{
 	animation: transistionIn 2s;
 }
-
-.home-section{
-	animation: transistionIn 2s;
-}
-
 
 @keyframes transistionIn{
 	from{
