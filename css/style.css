@@ -283,6 +283,23 @@ a{
 	top: 50%;
 }
 
+.home-section{
+content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 105vh;
+  height: 100%;
+  z-index: -10;
+  background: url(/img/background-image.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .homepage-title{
 	padding-top: 15.5em;
 	text-align: center;
