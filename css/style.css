@@ -605,9 +605,9 @@ footer i{
 	}
 }
 
-body{
+
 	animation: transistionIn 0.75s;
-}
+
 
 @keyframes transistionIn{
 	from{
@@ -619,21 +619,4 @@ body{
 		opacity: 1;
 		transform: rotateX(0);
 	}
-}
-
-.home-section{
-	width: 100%;
-	display: block;
-	min-height: 100vh;
-	background-image: url('../img/background-image.jpeg');
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    min-height: 100vh;
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
-	left: 50%;
-	top: 50%;
-	animation: none;
 }
