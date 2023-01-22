@@ -286,9 +286,7 @@ a{
   height: 105vh;
   width:100vw;
   background-size: cover;
-  display: flex;
   align-items: center;
-  flex-direction: column;
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
