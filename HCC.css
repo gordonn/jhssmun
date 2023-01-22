@@ -596,6 +596,7 @@ footer i{
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;
+	animation: transistionIn 2s;
 }
 
   .button1{
