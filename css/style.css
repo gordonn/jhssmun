@@ -635,5 +635,5 @@ body{
 	font-family: 'Roboto', sans-serif;
 	left: 50%;
 	top: 50%;
-	transition: none;
+	animation: none;
 }
