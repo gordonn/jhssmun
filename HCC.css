@@ -274,7 +274,7 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    min-height: 100vh;
+    min-height: 105vh;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 }
@@ -286,6 +286,7 @@ a{
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
+	animation: transistionIn 2s;
 }
 
 .horizontal-line{
@@ -298,12 +299,14 @@ a{
 	background-color: white;
 	margin-top: 0.75em;
 	margin-bottom: 0.75em;
+	animation: transistionIn 2s;
 }
 
 .homepage-intro{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	animation: transistionIn 2s;
 }
 
 .description{
@@ -687,5 +690,19 @@ footer i{
 		margin-right: auto;
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+}
+
+header{
+	animation: transistionIn 2s;
+}
+
+@keyframes transistionIn{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
 	}
 }
