@@ -277,6 +277,7 @@ a{
     min-height: 105vh;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
+	background-attachment: fixed;
 }
 
 .homepage-title{
@@ -287,6 +288,7 @@ a{
 	padding-left: 1em;
 	padding-right: 1em;
 	animation: transistionIn 2s;
+	background-attachment: scroll;
 }
 
 .horizontal-line{
