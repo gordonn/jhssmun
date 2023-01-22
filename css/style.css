@@ -16,6 +16,14 @@ body.hidden-scrolling{
 	width: 95%;
 	margin:auto;
 }
+
+@media (min-width: 750px) {
+	.container{
+		width: 97%;
+		margin:auto;
+	}
+}
+
 ul{
 	list-style: none;
 	margin:0;
