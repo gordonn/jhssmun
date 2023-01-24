@@ -280,7 +280,6 @@ a{
     padding-top: 11.5em;
 	margin-left: 21px;
     font-size: 1.35rem;
-	animation: transistionIn 1.5s;
 }
 
 
@@ -488,19 +487,5 @@ a{
 			padding-bottom: 2em;
 			text-align: center;
 			color: #39784c;
-		}
-	}
-
-	header{
-		animation: transistionIn 2s;
-	}
-	
-	@keyframes transistionIn{
-		from{
-			opacity: 0;
-		}
-	
-		to{
-			opacity: 1;
 		}
 	}

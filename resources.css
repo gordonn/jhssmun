@@ -280,7 +280,6 @@ a{
     padding-top: 11.5em;
 	margin-left: 21px;
     font-size: 1.35rem;
-	animation: transistionIn 1.5s;
 }
 
 .page-intro{
@@ -608,20 +607,6 @@ flex-direction: column;
 		}
 
 		.skewed h1{font-size: 1.25em;}
-}
-
-header{
-	animation: transistionIn 2s;
-}
-
-@keyframes transistionIn{
-	from{
-		opacity: 0;
-	}
-
-	to{
-		opacity: 1;
-	}
 }
 
 footer{

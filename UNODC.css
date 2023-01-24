@@ -306,7 +306,6 @@ a{
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
-	animation: transistionIn 1.5s;
 }
 
 .horizontal-line{
@@ -319,14 +318,12 @@ a{
 	background-color: white;
 	margin-top: 0.75em;
 	margin-bottom: 0.75em;
-	animation: transistionIn 1.5s;
 }
 
 .homepage-intro{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	animation: transistionIn 1.5s;
 }
 
 .button-primary{
@@ -636,7 +633,6 @@ a{
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;
-	animation: transistionIn 1.5s;
 }
 
   .button1{
@@ -742,20 +738,6 @@ a{
 		margin-right: auto;
 		padding-left: 1em;
 		padding-right: 1em;
-	}
-}
-
-header{
-	animation: transistionIn 2s;
-}
-
-@keyframes transistionIn{
-	from{
-		opacity: 0;
-	}
-
-	to{
-		opacity: 1;
 	}
 }
 
