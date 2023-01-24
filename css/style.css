@@ -311,7 +311,6 @@ a{
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
-	animation: transistionIn 1.5s;
 }
 
 .horizontal-line{
@@ -324,7 +323,6 @@ a{
 	background-color: white;
 	margin-top: 0.6em;
 	margin-bottom: 0.75em;
-	animation: transistionIn 1.5s;
 }
 
 .homepage-intro{
@@ -332,7 +330,6 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 12em;
-	animation: transistionIn 1.5s;
 }
 
 .homepage-letter{
@@ -560,20 +557,6 @@ a{
 		margin-right: auto;
 		padding-left: 1em;
 		padding-right: 1em;
-	}
-}
-
-header{
-	animation: transistionIn 2s;
-}
-
-@keyframes transistionIn{
-	from{
-		opacity: 0;
-	}
-
-	to{
-		opacity: 1;
 	}
 }
 
