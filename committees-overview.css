@@ -833,7 +833,7 @@ a{
 
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 905px) {
     .container-1{
         display: grid;
         grid-template-columns: 400px 400px;
@@ -850,7 +850,7 @@ a{
     }
   
 
-    @media (min-width: 1325px) {
+    @media (min-width: 1335px) {
         .container-1{
             display: grid;
             grid-template-columns: 400px 400px 400px;
