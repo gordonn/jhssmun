@@ -392,6 +392,7 @@ a{
 .description p{
 	font-size: 0.9rem;
 	line-height: 1.7rem;
+	margin-bottom: 1em;
 }
 
 .horizontal-line-secondary{
