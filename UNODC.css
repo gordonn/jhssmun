@@ -521,6 +521,7 @@ a{
     margin-bottom: 3em;
     background-color: white;
     min-width: 250px;
+	max-width: 250px;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
@@ -535,6 +536,7 @@ a{
     margin-bottom: 3em;
     background-color: white;
     min-width: 250px;
+	max-width: 250px;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
@@ -549,7 +551,8 @@ a{
     margin-bottom: 3em;
     background-color: white;
     min-width: 250px;
-    height: 350px;
+    min-width: 250px;
+	max-width: 250px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/green.png);
