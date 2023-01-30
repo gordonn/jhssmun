@@ -741,7 +741,7 @@ a{
 	background-color: #155d275d;
   }
 
-  @media (min-width: 550px) {
+  @media (min-width: 500px) {
     .image-1{
         background-image: url(img/berlin-wall-light.webp);
         width: 400px;
