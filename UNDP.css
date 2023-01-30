@@ -546,6 +546,8 @@ a{
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;
+	margin-top: 120px;
+	margin-bottom: 100px;
 }
 
   .button1{
@@ -559,8 +561,6 @@ a{
 	outline: solid 1px white;
 	text-decoration: none;
 	margin-right: 7px;
-	margin-top: 100px;
-	margin-bottom: 100px;
 	text-align: center;
 	transition: 0.45s;
 	width: 145px;
@@ -577,8 +577,6 @@ a{
 	outline: solid 1px white;
 	text-decoration: none;
 	margin-left: 7px;
-	margin-top: 100px;
-	margin-bottom: 100px;
 	text-align: center;
 	transition: 0.45s;
 	width: 145px;
@@ -606,7 +604,6 @@ a{
 		outline: solid 1px white;
 		text-decoration: none;
 		margin-right: 10px;
-		margin-top: 110px;
 		text-align: center;
 		transition: 0.45s;
 		font-size: medium;
@@ -624,11 +621,18 @@ a{
 			outline: solid 1px white;
 			text-decoration: none;
 			margin-left: 10px;
-			margin-top: 110px;
 			text-align: center;
 			transition: 0.45s;
 			font-size: medium;
 			width: 150px;
+			}
+			.button-container{
+				margin-top: 20px;
+				font-family: 'Roboto', sans-serif;
+				display: flex;
+				justify-content: center;
+				margin-top: 130px;
+				margin-bottom: 100px;
 			}
   }
 
