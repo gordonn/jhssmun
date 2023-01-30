@@ -358,8 +358,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    width: 250px;
-    height: 300px;
+    width: 90%;
+    height: 500px;
     margin-left: 15px;
     background-image: url(img/gordon_me.jpg);
     background-size: cover;
@@ -375,8 +375,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    width: 250px;
-    height: 300px;
+    width: 90%;
+    height: 500px;
     margin-left: 15px;
     background-image: url(img/img-10.jpg);
     background-size: cover;
@@ -454,10 +454,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-	min-width: 300px;
-	max-width: 300px;
-	min-height: 400px;
-	max-height: 400px;
+	width: 300px;
+	height: 400px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/gordon_me.jpg);
@@ -470,10 +468,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    min-width: 300px;
-	max-width: 300px;
-	min-height: 400px;
-	max-height: 400px;
+	width: 300px;
+	height: 400px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/img-10.jpg);
@@ -530,10 +526,8 @@ a{
 
     .profile-picture{
         background-color: white;
-        min-width: 300px;
-	max-width: 300px;
-	min-height: 400px;
-	max-height: 400px;
+		width: 300px;
+		height: 400px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
@@ -542,10 +536,8 @@ a{
 
     .profile-picture-secondary{
         background-color: white;
-		min-width: 300px;
-		max-width: 300px;
-		min-height: 400px;
-		max-height: 400px;
+		width: 300px;
+		height: 400px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
