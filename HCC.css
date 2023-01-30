@@ -455,8 +455,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    min-width: 200px;
-	max-width: 200px;
+    min-width: 250px;
+	max-width: 250px;
 	min-height: 300px;
 	max-height: 300px;
     margin-left: auto;
@@ -471,8 +471,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-	min-width: 200px;
-	max-width: 200px;
+	min-width: 250px;
+	max-width: 250px;
 	min-height: 300px;
 	max-height: 300px;
     margin-left: auto;
@@ -532,9 +532,10 @@ a{
     .profile-picture{
         background-color: white;
 		min-width: 200px;
-	max-width: 200px;
-	min-height: 300px;
-	max-height: 300px;
+		min-width: 250px;
+		max-width: 250px;
+		min-height: 300px;
+		max-height: 300px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
@@ -544,9 +545,10 @@ a{
     .profile-picture-secondary{
         background-color: white;
         min-width: 200px;
-	max-width: 200px;
-	min-height: 300px;
-	max-height: 300px;
+		min-width: 250px;
+		max-width: 250px;
+		min-height: 300px;
+		max-height: 300px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
