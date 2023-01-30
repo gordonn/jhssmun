@@ -741,7 +741,7 @@ a{
 	background-color: #155d275d;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 610px) {
     .image-1{
         background-image: url(img/berlin-wall-light.webp);
         width: 400px;
@@ -833,7 +833,7 @@ a{
 
   }
 
-  @media (min-width: 890px) {
+  @media (min-width: 900px) {
     .container-1{
         display: grid;
         grid-template-columns: 400px 400px;
@@ -865,7 +865,7 @@ a{
         }
         }
 
-        @media (min-width: 1750px) {
+        @media (min-width: 1760px) {
             .container-1{
                 display: grid;
                 grid-template-columns: 400px 400px 400px 400px;
