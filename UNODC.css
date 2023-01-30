@@ -521,7 +521,9 @@ a{
     margin-bottom: 3em;
     background-color: white;
     min-width: 350px;
-	height: 500px;
+	max-width: 350px;
+	min-height: 500px;
+	max-height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/img_1.jpg);
@@ -534,8 +536,10 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    min-width: 350px;
-	height: 500px;
+	min-width: 350px;
+	max-width: 350px;
+	min-height: 500px;
+	max-height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/img_5.jpg);
@@ -549,7 +553,9 @@ a{
     margin-bottom: 3em;
     background-color: white;
     min-width: 350px;
-	height: 500px;
+	max-width: 350px;
+	min-height: 500px;
+	max-height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/green.png);

@@ -455,7 +455,9 @@ a{
     margin-bottom: 3em;
     background-color: white;
 	min-width: 350px;
-	height: 500px;
+	max-width: 350px;
+	min-height: 500px;
+	max-height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/gordon_me.jpg);
@@ -469,7 +471,9 @@ a{
     margin-bottom: 3em;
     background-color: white;
     min-width: 350px;
-	height: 500px;
+	max-width: 350px;
+	min-height: 500px;
+	max-height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/img-10.jpg);
