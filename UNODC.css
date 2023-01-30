@@ -612,8 +612,10 @@ a{
 
     .profile-picture{
         background-color: white;
-        min-width: 250px;
-        height: 300px;
+		min-width: 300px;
+		max-width: 300px;
+		min-height: 400px;
+		max-height: 400px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
@@ -622,8 +624,10 @@ a{
 
     .profile-picture-secondary{
         background-color: white;
-        min-width: 250px;
-        height: 300px;
+        min-width: 300px;
+	max-width: 300px;
+	min-height: 400px;
+	max-height: 400px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
@@ -632,8 +636,10 @@ a{
 
 .profile-picture-third{
 	background-color: white;
-	min-width: 250px;
-	height: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 400px;
+	max-height: 400px;
 	margin-top: 3.4em;
 	margin-bottom: 3.4em;
 	padding-right: 5em;

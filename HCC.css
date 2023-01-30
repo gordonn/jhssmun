@@ -359,8 +359,10 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    width: 250px;
-    height: 350px;
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 400px;
+	max-height: 400px;
     margin-left: 15px;
     background-image: url(img/img_11.jpg);
     background-size: cover;
@@ -376,8 +378,10 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-    width: 250px;
-    height: 350px;
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 400px;
+	max-height: 400px;
     margin-left: 15px;
     background-image: url(img/img_2.jpg);
     background-size: cover;
