@@ -360,8 +360,7 @@ a{
     background-color: white;
     width: 250px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
     background-image: url(img/gordon_me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -374,8 +373,7 @@ a{
     background-color: white;
     width: 250px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
     background-image: url(img/img-10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
