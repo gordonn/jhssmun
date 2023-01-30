@@ -406,34 +406,26 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-	width: 90%;
-    height: 500px;
+    width: 250px;
+    height: 300px;
     margin-left: 15px;
     background-image: url(img/img_15.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	width: 90%;
-    height: 500px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .profile-picture-secondary{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-	width: 90%;
-    height: 500px;
+    width: 250px;
+    height: 300px;
     margin-left: 15px;
     background-image: url(img/img_212.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	width: 90%;
-    height: 500px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .director-description{
@@ -502,10 +494,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-	min-width: 250px;
-	max-width: 250px;
-	min-height: 300px;
-	max-height: 300px;
+    min-width: 250px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/img_15.jpg);
@@ -518,10 +508,8 @@ a{
     margin: 2.75em;
     margin-bottom: 3em;
     background-color: white;
-	min-width: 250px;
-	max-width: 250px;
-	min-height: 300px;
-	max-height: 300px;
+    min-width: 250px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/img_212.jpg);
@@ -578,11 +566,8 @@ a{
 
     .profile-picture{
         background-color: white;
-		min-width: 200px;
-		min-width: 250px;
-		max-width: 250px;
-		min-height: 300px;
-		max-height: 300px;
+        min-width: 250px;
+        height: 300px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
@@ -591,11 +576,8 @@ a{
 
     .profile-picture-secondary{
         background-color: white;
-		min-width: 200px;
-		min-width: 250px;
-		max-width: 250px;
-		min-height: 300px;
-		max-height: 300px;
+        min-width: 250px;
+        height: 300px;
         margin-top: 3.4em;
         margin-bottom: 3.4em;
         padding-right: 5em;
