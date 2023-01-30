@@ -850,7 +850,7 @@ a{
     }
   
 
-    @media (min-width: 1315px) {
+    @media (min-width: 1325px) {
         .container-1{
             display: grid;
             grid-template-columns: 400px 400px 400px;
