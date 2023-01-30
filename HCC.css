@@ -366,6 +366,10 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+	width: 90%;
+    height: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .profile-picture-secondary{
@@ -379,6 +383,10 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+	width: 90%;
+    height: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .director-description{
