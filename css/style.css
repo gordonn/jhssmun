@@ -342,8 +342,15 @@ a {
 	}
 }
 
+.center{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
 .homepage-title {
-	padding-top: 15.5em;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -353,7 +360,7 @@ a {
 
 .horizontal-line {
 	width: 75%;
-	min-width: 250px;
+	min-width: 275px;
 	max-width: 810px;
 	height: 1px;
 	margin-left: auto;
@@ -367,7 +374,6 @@ a {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 12em;
 }
 
 .homepage-letter {
@@ -404,13 +410,29 @@ a {
 @media (min-width: 750px) {
 
 	.homepage-title {
-		padding-top: 10em;
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
+	}
+
+	.horizontal-line {
+		width: 75%;
+		height: 1px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+		margin-top: 0.6em;
+		margin-bottom: 0.75em;
+	}
+
+	.center{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.homepage-intro {
