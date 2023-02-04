@@ -342,13 +342,6 @@ a {
 	}
 }
 
-.home-section{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .homepage-title {
 	padding-top: 15.5em;
 	text-align: center;
