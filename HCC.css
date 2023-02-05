@@ -320,7 +320,7 @@ a {
 
 .center{
 	position: absolute;
-	top: 60%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -345,7 +345,6 @@ a {
 }
 
 .homepage-title {
-	margin-top: 6em;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -450,7 +449,7 @@ a {
 
 	.center{
 		position: absolute;
-		top: 52%;
+		top: 65%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
