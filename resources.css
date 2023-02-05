@@ -603,7 +603,7 @@ footer i {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
 	.skewed {
 		display: block;
 		width: 90%;
