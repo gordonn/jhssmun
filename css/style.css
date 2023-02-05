@@ -421,7 +421,7 @@ a {
 
 	.center{
 		position: absolute;
-		top: 27.5%;
+		top: 26%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
@@ -477,6 +477,18 @@ a {
 		margin-top: -15px;
 	}
 
+}
+
+@media (min-width: 1900px){
+	.homepage-title {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 2.25rem;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		margin-top: 550px;
+	}
 }
 
 .quote {
