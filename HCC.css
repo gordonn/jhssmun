@@ -314,7 +314,7 @@ a {
 	background-position: center;
 	color: white;
 	height: 105vh;
-	min-height: 755px;
+	min-height: 700px;
 	font-family: 'Roboto', sans-serif;
 	background-attachment: fixed;
 }
@@ -338,7 +338,7 @@ a {
 		background-position: center;
 		color: white;
 		height: 105vh;
-		min-height: 755px;
+		min-height: 700px;
 		font-family: 'Roboto', sans-serif;
 		left: 50%;
 		top: 50%;
