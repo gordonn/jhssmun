@@ -310,7 +310,7 @@ a {
 	width: 100%;
 	display: block;
 	min-height: 100vh;
-	background-image: url('../img/background-image.jpeg');
+	background-image: url('../img/mountain.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -328,7 +328,7 @@ a {
 		width: 100%;
 		display: block;
 		min-height: 100vh;
-		background-image: url('../img/background-image.jpeg');
+		background-image: url('../img/mountain.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
