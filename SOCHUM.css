@@ -313,15 +313,15 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
-	min-height: 105vh;
-	height: 100%;
+	height: 105vh;
+	min-height: 655px;
 	font-family: 'Roboto', sans-serif;
 	background-attachment: fixed;
 }
 
 .center{
 	position: absolute;
-	top: 65%;
+	top: 75.75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -504,6 +504,15 @@ a {
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
+		margin-top: 600px;
+	}
+
+	.center{
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
 	}
 
 	.homepage-intro {
