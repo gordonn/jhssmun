@@ -321,7 +321,7 @@ a {
 
 .center{
 	position: absolute;
-	top: 75.75%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -495,7 +495,7 @@ a {
 		margin-bottom: 1.5em;
 	}
 
-	@media (min-width: 2000px){
+	@media (min-width: 1900px){
 		.homepage-title {
 			text-align: center;
 			margin-left: auto;
