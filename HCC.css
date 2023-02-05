@@ -456,12 +456,12 @@ a {
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
-		margin-top: 300px;
+		margin-top: 450px;
 	}
 
 	.center{
 		position: absolute;
-		top: 47%;
+		top: 40%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
