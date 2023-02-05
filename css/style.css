@@ -315,8 +315,8 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
-	min-height: 105vh;
-	height: 100%;
+	height: 105vh;
+	min-height: 655px;
 	font-family: 'Roboto', sans-serif;
 	left: 50%;
 	top: 50%;
@@ -333,8 +333,8 @@ a {
 		background-repeat: no-repeat;
 		background-position: center;
 		color: white;
-		min-height: 105vh;
-		height: 100%;
+		height: 105vh;
+		min-height: 655px;
 		font-family: 'Roboto', sans-serif;
 		left: 50%;
 		top: 50%;
@@ -344,7 +344,7 @@ a {
 
 .center{
 	position: absolute;
-	top: 57.5%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -416,6 +416,15 @@ a {
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
+		margin-top: 350px;
+	}
+
+	.center{
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
 	}
 
 	.horizontal-line {
@@ -426,13 +435,6 @@ a {
 		background-color: white;
 		margin-top: 0.6em;
 		margin-bottom: 0.75em;
-	}
-
-	.center{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 	}
 
 	.homepage-intro {
