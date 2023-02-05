@@ -360,7 +360,7 @@ a {
 
 .horizontal-line {
 	width: 75%;
-	min-width: 275px;
+	min-width: 250px;
 	max-width: 810px;
 	height: 1px;
 	margin-left: auto;
