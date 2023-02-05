@@ -321,7 +321,7 @@ a {
 
 .center{
 	position: absolute;
-	top: 70%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -448,14 +448,6 @@ a {
 }
 
 @media (min-width: 750px) {
-
-	.center{
-		position: absolute;
-		top: 65%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 100%;
-	}
 
 	.homepage-title {
 		text-align: center;
@@ -687,17 +679,6 @@ a {
 		justify-content: center;
 		margin-top: 130px;
 		margin-bottom: 100px;
-	}
-}
-
-@media (min-width: 1500px) {
-	.homepage-title {
-		padding-top: 11em;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 1em;
-		padding-right: 1em;
 	}
 }
 
