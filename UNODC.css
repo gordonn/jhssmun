@@ -313,10 +313,18 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
-	min-height: 105vh;
-	height: 100%;
+	height: 105vh;
+	min-height: 655px;
 	font-family: 'Roboto', sans-serif;
 	background-attachment: fixed;
+}
+
+.center{
+	position: absolute;
+	top: 75.75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
 }
 
 @media (max-width: 1100px) {
@@ -329,8 +337,8 @@ a {
 		background-repeat: no-repeat;
 		background-position: center;
 		color: white;
-		min-height: 105vh;
-		height: 100%;
+		height: 105vh;
+		min-height: 655px;
 		font-family: 'Roboto', sans-serif;
 		left: 50%;
 		top: 50%;
@@ -503,14 +511,22 @@ a {
 
 @media (min-width: 750px) {
 
-	.homepage-title {
-		padding-top: 9em;
+	.homepage-title{
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
+		margin-top: 600px;
+	}
+
+	.center{
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
 	}
 
 	.homepage-intro {
@@ -758,28 +774,6 @@ a {
 		justify-content: center;
 		margin-top: 130px;
 		margin-bottom: 100px;
-	}
-}
-
-@media (min-width: 1500px) {
-	.homepage-title {
-		padding-top: 11em;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-}
-
-@media (min-width: 1500px) {
-	.homepage-title {
-		padding-top: 11em;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 1em;
-		padding-right: 1em;
 	}
 }
 
