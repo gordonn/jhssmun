@@ -416,12 +416,12 @@ a {
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
-		margin-top: 350px;
+		margin-top: 450px;
 	}
 
 	.center{
 		position: absolute;
-		top: 35%;
+		top: 27.5%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
