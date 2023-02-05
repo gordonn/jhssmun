@@ -493,6 +493,10 @@ a {
 	color: #39784c;
 }
 
+.quote p{
+	width: 90%;
+}
+
 .quote i {
 	color: #39784c;
 	font-size: 35px;
