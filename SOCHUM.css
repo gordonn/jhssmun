@@ -495,7 +495,7 @@ a {
 		margin-bottom: 1.5em;
 	}
 
-	@media (min-width: 1900px){
+	@media (min-width: 1700px){
 		.homepage-title {
 			text-align: center;
 			margin-left: auto;
