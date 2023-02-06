@@ -314,14 +314,14 @@ a {
 	background-position: center;
 	color: white;
 	height: 105vh;
-	min-height: 655px;
+	min-height: 700px;
 	font-family: 'Roboto', sans-serif;
 	background-attachment: fixed;
 }
 
 .center{
 	position: absolute;
-	top: 70%;
+	top: 72.5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -338,7 +338,7 @@ a {
 		background-position: center;
 		color: white;
 		height: 105vh;
-		min-height: 655px;
+		min-height: 700px;
 		font-family: 'Roboto', sans-serif;
 		left: 50%;
 		top: 50%;
@@ -350,8 +350,8 @@ a {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .horizontal-line {
@@ -370,55 +370,6 @@ a {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.button-primary {
-	cursor: pointer;
-	padding: 1em;
-	padding-left: 0.35em;
-	padding-right: 0.35em;
-	color: white;
-	outline: solid 1px white;
-	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 140px;
-	margin-top: 125px;
-	margin-bottom: 100px;
-	text-align: center;
-	transition: 0.45s;
-}
-
-@media (min-width: 750px) {
-	.button-primary {
-		cursor: pointer;
-		padding: 1em;
-		padding-left: 0.35em;
-		padding-right: 0.35em;
-		color: white;
-		outline: solid 1px white;
-		text-decoration: none;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 140px;
-		margin-top: 110px;
-		text-align: center;
-		transition: 0.45s;
-	}
-}
-
-.button-primary a {
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.button-primary:hover {
-	background-color: white;
-}
-
-.button-primary:hover a {
-	color: #39784c;
 }
 
 .description {
@@ -510,23 +461,24 @@ a {
 
 @media (min-width: 750px) {
 
-	.homepage-title{
+	.homepage-title {
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
-		margin-top: 600px;
+		margin-top: 750px;
 	}
 
 	.center{
 		position: absolute;
-		top: 30%;
+		top: 20%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
 	}
+	
 
 	.homepage-intro {
 		text-align: center;
@@ -564,7 +516,7 @@ a {
 			font-size: 2.25rem;
 			padding-left: 1.5em;
 			padding-right: 1.5em;
-			margin-top: 650px;
+			margin-top: 825px;
 		}
 	}
 
