@@ -316,7 +316,7 @@ a {
 	background-position: center;
 	color: white;
 	height: 105vh;
-	min-height: 655px;
+	min-height: 750px;
 	font-family: 'Roboto', sans-serif;
 	left: 50%;
 	top: 50%;
@@ -360,6 +360,7 @@ a {
 		width: 100%;
 		margin-top: 100px;
 	}
+
 }
 
 .homepage-title {
