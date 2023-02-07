@@ -330,11 +330,11 @@ a {
 @media (min-height: 100px) and (max-height: 400px){
 	.center{
 		position: absolute;
-		top: 80%;
+		top: 72%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
-		margin-top: 125px;
+		margin-top: 165px;
 	}
 
 	.home-section {
