@@ -346,8 +346,6 @@ a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
-	padding-top: 350px;
-	padding-bottom: 350px;
 }
 
 @media (min-height: 100px) and (max-height: 400px){
@@ -451,8 +449,6 @@ a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
-	padding-top: 350px;
-	padding-bottom: 350px;
 	}
 
 	.horizontal-line {
