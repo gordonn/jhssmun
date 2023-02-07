@@ -308,20 +308,20 @@ a {
 	width: 100%;
 	display: block;
 	min-height: 100vh;
-	background-image: url(img/doctor-transplant.png);
+	background-image: url(img/palestine-israel-dark.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
 	height: 105vh;
-	min-height: 655px;
+	min-height: 700px;
 	font-family: 'Roboto', sans-serif;
 	background-attachment: fixed;
 }
 
 .center{
 	position: absolute;
-	top: 70%;
+	top: 72.5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -332,13 +332,13 @@ a {
 		width: 100%;
 		display: block;
 		min-height: 100vh;
-		background-image: url(img/doctor-transplant.png);
+		background-image: url(img/palestine-israel-dark.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		color: white;
 		height: 105vh;
-		min-height: 655px;
+		min-height: 700px;
 		font-family: 'Roboto', sans-serif;
 		left: 50%;
 		top: 50%;
@@ -350,8 +350,8 @@ a {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .horizontal-line {
@@ -370,55 +370,6 @@ a {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.button-primary {
-	cursor: pointer;
-	padding: 1em;
-	padding-left: 0.35em;
-	padding-right: 0.35em;
-	color: white;
-	outline: solid 1px white;
-	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 140px;
-	margin-top: 125px;
-	margin-bottom: 100px;
-	text-align: center;
-	transition: 0.45s;
-}
-
-@media (min-width: 750px) {
-	.button-primary {
-		cursor: pointer;
-		padding: 1em;
-		padding-left: 0.35em;
-		padding-right: 0.35em;
-		color: white;
-		outline: solid 1px white;
-		text-decoration: none;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 140px;
-		margin-top: 110px;
-		text-align: center;
-		transition: 0.45s;
-	}
-}
-
-.button-primary a {
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.button-primary:hover {
-	background-color: white;
-}
-
-.button-primary:hover a {
-	color: #39784c;
 }
 
 .description {
@@ -456,7 +407,7 @@ a {
 	width: 250px;
 	height: 300px;
 	margin-left: 15px;
-	background-image: url(img/img_1.jpg);
+	background-image: url(img/gordon_me.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -469,20 +420,7 @@ a {
 	width: 250px;
 	height: 300px;
 	margin-left: 15px;
-	background-image: url(img/img_5.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.profile-picture-third {
-	margin: 2.75em;
-	margin-bottom: 3em;
-	background-color: white;
-	width: 250px;
-	height: 300px;
-	margin-left: 15px;
-	background-image: url(img/img_27.jpg);
+	background-image: url(img/img-10.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -510,23 +448,24 @@ a {
 
 @media (min-width: 750px) {
 
-	.homepage-title{
+	.homepage-title {
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 2.25rem;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
-		margin-top: 600px;
+		margin-top: 750px;
 	}
 
 	.center{
 		position: absolute;
-		top: 30%;
+		top: 20%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
 	}
+	
 
 	.homepage-intro {
 		text-align: center;
@@ -556,7 +495,7 @@ a {
 		margin-bottom: 1.5em;
 	}
 
-	@media (min-width: 1900px){
+	@media (min-width: 1600px){
 		.homepage-title {
 			text-align: center;
 			margin-left: auto;
@@ -564,7 +503,7 @@ a {
 			font-size: 2.25rem;
 			padding-left: 1.5em;
 			padding-right: 1.5em;
-			margin-top: 650px;
+			margin-top: 825px;
 		}
 	}
 
@@ -578,7 +517,7 @@ a {
 			height: 300px;
 			margin-left: auto;
 			margin-right: auto;
-			background-image: url(img/img_1.jpg);
+			background-image: url(img/gordon_me.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
@@ -592,21 +531,7 @@ a {
 			height: 300px;
 			margin-left: auto;
 			margin-right: auto;
-			background-image: url(img/img_5.jpg);
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-
-		.profile-picture-third {
-			margin: 2.75em;
-			margin-bottom: 3em;
-			background-color: white;
-			min-width: 250px;
-			height: 300px;
-			margin-left: auto;
-			margin-right: auto;
-			background-image: url(img/img_27.jpg);
+			background-image: url(img/img-10.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
@@ -669,16 +594,6 @@ a {
 		}
 
 		.profile-picture-secondary {
-			background-color: white;
-			min-width: 250px;
-			height: 300px;
-			margin-top: 3.4em;
-			margin-bottom: 3.4em;
-			padding-right: 5em;
-			margin-left: 5em;
-		}
-
-		.profile-picture-third {
 			background-color: white;
 			min-width: 250px;
 			height: 300px;
