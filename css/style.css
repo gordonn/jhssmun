@@ -351,7 +351,7 @@ a {
 	padding-bottom: 350px;
 }
 
-@media (max-height: 500px) {
+@media (min-height: 100px) and (max-height: 500px){
 	.center{
 		position: absolute;
 		top: 55%;
