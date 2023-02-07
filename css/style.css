@@ -351,6 +351,18 @@ a {
 	padding-bottom: 350px;
 }
 
+@media (max-height: 500px) {
+	.center{
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		padding-top: 550px;
+		padding-bottom: 350px;
+	}
+}
+
 .homepage-title {
 	text-align: center;
 	margin-left: auto;
