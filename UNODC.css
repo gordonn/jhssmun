@@ -644,6 +644,16 @@ a {
 			margin-left: 5em;
 		}
 
+		.profile-picture-third {
+			background-color: white;
+			min-width: 250px;
+			height: 300px;
+			margin-top: 3.4em;
+			margin-bottom: 3.4em;
+			padding-right: 5em;
+			margin-left: 5em;
+		}
+
 	}
 
 }
