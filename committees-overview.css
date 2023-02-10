@@ -274,7 +274,7 @@ a{
     height: 325px;
     color: white;
 	font-family: 'Roboto', sans-serif;
-	background-image: url(img/vancouver_212.jpg);
+	background-image: url(img/img_722.jpg);
 }
 
 @media (min-width: 750px) {
@@ -286,7 +286,7 @@ a{
 		height: 325px;
 		color: white;
 		font-family: 'Roboto', sans-serif;
-		background-image: url(img/img_51.jpg);}
+		background-image: url(img/img_722.jpg);}
 }
 
 .top-section h1{
