@@ -313,6 +313,7 @@ a {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .line {
@@ -329,7 +330,7 @@ a {
 .footer{
     width: 100%;
     background-color: #424242;
-	margin-top: -80px;
+	margin-top: -50px;
 }
 
 .footer p{
@@ -445,6 +446,44 @@ h2{
     margin-top: 75px;
 }
 
+.conference {
+    margin-top: 80px;
+}
+
+.conference p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #424242;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border: 1px solid #ddd;
+    font-family: 'Times New Roman', Times, serif;
+    color: #424242;
+  }
+
+  th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #CDDDD2;
+  }
+
+
 @media (min-width: 750px) {
     .grid-container {
         display: grid;
@@ -459,6 +498,12 @@ h2{
     .title{
         margin-top: 180px;
     }
+    
+    table {
+        width: 90%;
+        max-width: 900px;
+        margin-top: 80px;
+    }
 }
 
 @media (min-width: 1100px) {
@@ -471,6 +516,7 @@ h2{
         margin-left: auto;
         margin-right: auto;
     }
+
 
     .name {
         color: #424242;
@@ -498,7 +544,7 @@ h2{
         margin-top: 20px;
         margin-bottom: 30px;
     }
-	
+
 }
 
 .photo{
@@ -532,14 +578,6 @@ h2{
     .header-main {
         margin-right: 0px;
     }
-
-	.title {
-		font-weight: 450;
-		font-size: 36px;
-		width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-	}
 	
 	.line {
 		background-color: white;
@@ -554,6 +592,14 @@ h2{
 
 	h2 {
 		font-size: 32px;
+	}
+
+	.title {
+		font-weight: 450;
+		font-size: 36px;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	hr {

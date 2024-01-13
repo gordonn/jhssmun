@@ -224,6 +224,8 @@ a {
 	transition: all 0.3s ease;
 }
 
+/* responsive */
+
 @media(max-width: 750px) {
 	.header .menu-overlay.active {
 		visibility: visible;
@@ -308,13 +310,95 @@ a {
 
 }
 
+.image-section {
+	margin-top: 114px;
+	background-image: url(img/background_2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
 .title {
 	font-weight: 450;
 	font-size: 27px;
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 5px;
+}
+
+.line {
+	background-color: white;
+	height: 1.5px;
+	width: 85%;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+}
+
+.letter {
+	font-family: 'Times New Roman', Times, serif;
+	color: #424242;
+}
+
+.letter h1 {
+	font-weight: 300;
+	font-size: 24px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+.letter p {
+	font-size: 18px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.signature {
+	width: 90%;
+	height: 100px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.signature-img {
+	width: 200px;
+	height: auto;
+	margin-top: -32px;
+}
+
+.letter h2 {
+	font-size: 18px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	font-weight: normal;
+}
+
+.line-2 {
+	width: 90%;
+	height: 1.5px;
+	background-color: #cccccc;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
 }
 
 .image-1 {
@@ -347,15 +431,20 @@ a {
 	margin-top: 50px;
 }
 
+.image-section-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .shortcut-title-1 {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 24px;
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Times New Roman', Times, serif;
 	color: #424242;
-	text-align: left;
 }
 
 .shortcut-text-1 {
@@ -370,12 +459,11 @@ a {
 
 .shortcut-title-2 {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 24px;
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Times New Roman', Times, serif;
-	text-align: left;
 }
 
 .shortcut-text-2 {
@@ -390,12 +478,11 @@ a {
 
 .shortcut-title-3 {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 24px;
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Times New Roman', Times, serif;
-	text-align: left;
 }
 
 .shortcut-text-3 {
@@ -498,45 +585,6 @@ button:hover {
 	color: white;
 }
 
-.title {
-    font-weight: 450;
-    font-size: 27px;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.title{
-	margin-top: 150px;
-    margin-bottom: -15px;
-}
-
-hr{
-    height: 1.5px;
-    width: 200px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-  	border: 0;
-	border-top: 1px solid #cccccc;
-  	padding: 0;
-}
-
-h2{
-    color: #424242;
-    text-align: center;
-    font-weight: 300;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 @media(min-width: 750px) {
 	.header {
 		position: absolute;
@@ -561,13 +609,62 @@ h2{
 		margin-right: 0px;
 	}
 
+	.image-section {
+		margin-top: 132px;
+	}
+
 	.title {
 		font-weight: 450;
 		font-size: 36px;
 		width: 85%;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 0px;
+	}
+
+	.line {
+		background-color: white;
+		height: 1.5px;
+		width: 85%;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+		margin-bottom: 13px;
+	}
+
+	.subtitle {
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 20px;
+	}
+
+	.letter h1 {
+		font-weight: 300;
+		font-size: 24px;
+		width: 75%;
+		max-width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 80px;
+	}
+
+	.letter p {
+		font-size: 18px;
+		width: 75%;
+		max-width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.letter h2 {
+		font-size: 18px;
+		width: 75%;
+		max-width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+		font-weight: normal;
 	}
 
 	.line-2 {
@@ -634,26 +731,6 @@ h2{
 		margin-left: -22.5px;
 	}
 
-	.title {
-		font-weight: 450;
-		font-size: 36px;
-		width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.title{
-        margin-top: 180px;
-    }
-	
-	h2 {
-		font-size: 32px;
-	}
-	
-	hr {
-		width: 250px;
-	}
-
 }
 
 @media (min-width: 1100px) {
@@ -699,6 +776,15 @@ h2{
 		margin-left: 45px;
 	}
 
+	.line-2 {
+		width: 1000px;
+		height: 1px;
+		background-color: #cccccc;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+	}
+
 	.image-2 {
 		margin-right: 0px;
 	}
@@ -713,6 +799,10 @@ h2{
 
 	.button-container-2 {
 		margin-right: 0px;
+	}
+
+	.image-section {
+		height: 700px;
 	}
 	
 }

@@ -307,29 +307,50 @@ a {
 
 }
 
-.title {
-    font-weight: 450;
-    font-size: 27px;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+.title{
+	margin-top: 150px;
 }
 
-.line {
-    background-color: white;
+hr{
     height: 1.5px;
-    width: 85%;
-    max-width: 500px;
+    width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  	border: 0;
+	border-top: 1px solid #cccccc;
+  	padding: 0;
+}
+
+h2{
+    color: #424242;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
-    margin-bottom: 10px;
+
+}
+
+.main-text{
+	font-family: 'Times New Roman', Times, serif;
+    color: #424242;
+	font-size: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .footer{
     width: 100%;
     background-color: #424242;
-	margin-top: -80px;
+	margin-top: -30px;
 }
 
 .footer p{
@@ -376,136 +397,84 @@ a {
     color: white;
 }
 
-.title{
-	margin-top: 150px;
-    margin-bottom: -15px;
-}
-
-hr{
-    height: 1.5px;
-    width: 200px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+.committee-1 {
+	width: 90%;
+	height: 350px;
+	background-image: url(img/background_2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
-  	border: 0;
-	border-top: 1px solid #cccccc;
-  	padding: 0;
+	border-radius: 10px;
 }
 
-h2{
-    color: #424242;
-    text-align: center;
-    font-weight: 300;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+.committee-2 {
+	width: 90%;
+	height: 350px;
+	background-image: url(img/background_2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
 }
 
-.name {
-    color: #424242;
-    text-align: left;
-    font-weight: 500;
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
-    
+.committee-3 {
+	width: 90%;
+	height: 350px;
+	background-image: url(img/background_2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
 }
 
-.role {
-    color: #aaaaaa;
-    text-align: left;
-    font-weight: 500;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
+.committee-4 {
+	width: 90%;
+	height: 350px;
+	background-image: url(img/background_2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
 }
 
-.description {
-    font-family: 'Times New Roman', Times, serif;
-    color: #424242;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.committee-title{
+	color: white;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 450;
 }
 
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(1, 300px);
-    gap: 40px;
-    justify-content: center;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 75px;
+.committee-topic{
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+	margin-top: 20px;
 }
 
-@media (min-width: 750px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 300px);
-        gap: 40px;
-        justify-content: center;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .title{
-        margin-top: 180px;
-    }
-}
-
-@media (min-width: 1100px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(3, 300px);
-        gap: 40px;
-        justify-content: center;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .name {
-        color: #424242;
-        text-align: left;
-        font-weight: 500;
-        font-size: 28px;
-        font-family: 'Times New Roman', Times, serif;
-        margin-top: 10px;
-        
-    }
-    
-    .role {
-        color: #aaaaaa;
-        text-align: left;
-        font-weight: 500;
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 10px;
-    }
-    
-    .description {
-        font-family: 'Times New Roman', Times, serif;
-        color: #424242;
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-	
-}
-
-.photo{
-    width: 100%;
-    height: 400px;
-    background-color: #f0f0f0;
-    margin-bottom: 30px;
+.commitee-text{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 300px;
 }
 
 @media(min-width: 750px) {
@@ -533,23 +502,9 @@ h2{
         margin-right: 0px;
     }
 
-	.title {
-		font-weight: 450;
-		font-size: 36px;
-		width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.line {
-		background-color: white;
-		height: 1.5px;
-		width: 85%;
-		max-width: 700px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 8px;
-		margin-bottom: 13px;
+	.main-text{
+		width: 75%;
+		max-width: 850px;
 	}
 
 	h2 {
@@ -560,4 +515,39 @@ h2{
 		width: 250px;
 	}
 
+	.title {
+		margin-top: 180px;
+	}
+
+	.footer {
+		margin-top: -40px;
+	}
+
+	.committee-1 {
+		max-width: 900px;
+		width: 90%;
+	}
+
+	.committee-2 {
+		max-width: 900px;
+		width: 90%;
+	}
+
+	.committee-3 {
+		max-width: 900px;
+		width: 90%;
+	}
+
+	.committee-4 {
+		max-width: 900px;
+		width: 90%;
+	}
+
+	.committee-title{
+		font-size: 28px;
+	}
+	.committee-topic{
+		font-size: 20px;
+		margin-top: 25px;
+	}
 }
