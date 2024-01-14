@@ -404,7 +404,7 @@ a {
 .image-1 {
 	width: 300px;
 	height: 220px;
-	background-color: #f0f0f0;
+	background-image: url(img/committee.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
