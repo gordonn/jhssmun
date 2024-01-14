@@ -430,7 +430,7 @@ a {
 .image-3 {
 	width: 300px;
 	height: 220px;
-	background-color: #f0f0f0;
+	background-image: url(img/resources.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
