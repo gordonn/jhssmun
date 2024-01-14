@@ -1,1 +1,12 @@
-// hello
+User-agent: *
+Disallow: /img/
+Disallow: /committee-1.html
+Disallow: /committee-2.html
+Disallow: /committee-3.html
+Disallow: /committee-4.html
+Allow: /index.html
+Allow: /committees.html
+Allow: /resources.html
+Allow: /schedule.html
+Allow: /secretariat.html
+Sitemap: https://jhssmun.org/sitemap.xml
