@@ -404,7 +404,7 @@ a {
 .image-1 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/committee.svg);
+	background-image: url(img/committee.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -432,7 +432,7 @@ a {
 .image-3 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/resources.svg);
+	background-image: url(img/resources.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
