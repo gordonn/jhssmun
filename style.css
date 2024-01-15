@@ -576,13 +576,15 @@ button:hover {
 	padding-bottom: 40px;
 }
 
-.instagram {
-	margin-left: auto;
-	margin-right: auto;
+.container-1 {
+	text-align: center;
+  }
+
+  .instagram{
+	display: inline-block; 
 	width: 40px;
-	display: block;
 	margin-bottom: 25px;
-}
+  }
 
 .footer-2 p {
 	margin-left: auto;

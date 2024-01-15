@@ -376,13 +376,15 @@ h2{
     padding-bottom: 40px;
 }
 
-.instagram{
-    margin-left: auto;
-    margin-right: auto;
-    width: 40px;
-    display: block;
-    margin-bottom: 25px;
-}
+.container-1 {
+	text-align: center;
+  }
+
+  .instagram{
+	display: inline-block; 
+	width: 40px;
+	margin-bottom: 25px;
+  }
 
 .footer-2 p{
     margin-left: auto;
