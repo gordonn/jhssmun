@@ -419,6 +419,7 @@ a {
 	width: 300px;
 	height: 220px;
 	background-image: url(img/DSC_0559.JPG);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(img/DSC_0559.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
