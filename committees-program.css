@@ -350,7 +350,7 @@ h2{
 .footer{
     width: 100%;
     background-color: #424242;
-	margin-top: -30px;
+	margin-top: -45px;
 }
 
 .footer p{
@@ -402,7 +402,7 @@ h2{
     width: 90%;
     height: 350px;
     margin-top: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -496,7 +496,7 @@ h2{
 	}
 
 	.footer {
-		margin-top: -20px;
+		margin-top: -35px;
 	}
 
 	.committee {
