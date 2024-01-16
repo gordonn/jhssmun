@@ -312,7 +312,7 @@ a {
 
 .image-section {
 	margin-top: 114px;
-	background-image: url(img/background_2.png);
+	background-image: url(img/background_2.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -404,7 +404,7 @@ a {
 .image-1 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/committee.png);
+	background-image: url(img/committee.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -418,8 +418,8 @@ a {
 .image-2 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/DSC_0559.JPG);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(img/DSC_0559.JPG);
+	background-image: url(img/DSC_0559.webp);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(img/DSC_0559.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -433,7 +433,7 @@ a {
 .image-3 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/resources.png);
+	background-image: url(img/resources.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

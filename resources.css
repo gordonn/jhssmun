@@ -320,7 +320,7 @@ a {
 .image-1 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/paper.png);
+	background-image: url(img/paper.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -334,7 +334,7 @@ a {
 .image-2 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/gavel.png);
+	background-image: url(img/gavel.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -348,7 +348,7 @@ a {
 .image-3 {
 	width: 300px;
 	height: 220px;
-	background-image: url(img/dove.png);
+	background-image: url(img/dove.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
