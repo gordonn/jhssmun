@@ -369,27 +369,15 @@ a {
 	margin-bottom: 30px;
 }
 
-.signature {
-	width: 90%;
-	height: 100px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.signature-img {
-	width: 200px;
-	height: auto;
-	margin-top: -32px;
-}
-
-.letter h2 {
+h2 {
 	font-size: 18px;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 8px;
 	font-weight: normal;
+	font-family: 'Times New Roman', Times, serif;
+	color: #424242;
 }
 
 .line-2 {
@@ -600,6 +588,19 @@ button:hover {
 	color: white;
 }
 
+.signature {
+	width: 150px;
+	height: auto;
+}
+
+.signature-background {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
 @media(min-width: 750px) {
 	.header {
 		position: absolute;
@@ -662,6 +663,13 @@ button:hover {
 		margin-top: 80px;
 	}
 
+	.signature-background {
+		width: 75%;
+		max-width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.letter p {
 		font-size: 18px;
 		width: 75%;
@@ -672,7 +680,7 @@ button:hover {
 		margin-bottom: 30px;
 	}
 
-	.letter h2 {
+	h2 {
 		font-size: 18px;
 		width: 75%;
 		max-width: 850px;
