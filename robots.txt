@@ -9,5 +9,5 @@ Allow: /committees.html
 Allow: /resources.html
 Allow: /schedule.html
 Allow: /secretariat.html
-Allow: /img/mun-eagle-green.svg
+Allow: /img/mun-eagle-green.svg 
 Sitemap: https://jhssmun.org/sitemap.xml
